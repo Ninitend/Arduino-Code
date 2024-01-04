@@ -208,7 +208,7 @@ String clean_string(String string) {
 }
 
 
-// schaltet die statusLed bei einer übergebenen '1' ein und bei einer '0' aus
+// schaltet die statusLed bei einer übergebenen '1' ein und sonst aus
 void statusLed_updater(int state) {
   if (state == 1) {
   digitalWrite(statusLed_pin, HIGH);
