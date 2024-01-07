@@ -4,7 +4,7 @@
   Dieser Code stellt den Teil I des Arduino-Programmier-Projekts, das im Rahmen des
   Informatikunterrichts der elften Klasse im ersten Semester veranlasst wurde, dar.
 
-  Teil I macht hierbei den Transmitter des mit Licht funktionierenden Texttransmitters aus.
+  Teil I macht hierbei den Transmitter des mit Licht funktionierenden Text-Transmitters aus.
 
   Nicht keine Kommentare sind für das Verständnis dieses Codes zu entbehren, wurden jedoch
   aufgrund der Aufgabenstellung eingefügt; sie beziehen sich ausschließlich auf die Zeilen
