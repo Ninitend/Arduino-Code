@@ -4,7 +4,7 @@
   Dieser Code stellt den Teil II des Arduino-Programmier-Projekts, das im Rahmen des
   Informatikunterrichts der elften Klasse im ersten Semester veranlasst wurde, dar.
   
-  Teil II macht hierbei den Receiver des mit Licht funktionierenden Texttransmitters aus.
+  Teil II macht hierbei den Receiver des mit Licht funktionierenden Text-Transmitters aus.
   
   Nicht keine Kommentare sind für das Verständnis dieses Codes zu entbehren, wurden jedoch
   aufgrund der Aufgabenstellung eingefügt; sie beziehen sich ausschließlich auf die Zeilen
