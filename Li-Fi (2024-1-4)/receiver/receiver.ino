@@ -111,7 +111,8 @@ bool lightDetection_state_updater(int input_pin) {
 
   if (analogRead(input_pin) >= lightDetection_true) {
     state = 1;
-  } else {
+  
+	} else {
     state = 0;
   }
 
