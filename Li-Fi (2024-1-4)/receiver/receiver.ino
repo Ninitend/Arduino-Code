@@ -145,12 +145,12 @@ String receive_message() {
 
     for (int i = 0; i < 7; i++) {
       if (lightDetection_state_updater(ldr_pin) == 1) {
-      binaryInput += 1;
-      statusLed_updater(1);
+      	binaryInput += 1;
+      	statusLed_updater(1);
 
       } else {
-      binaryInput += 0;
-      statusLed_updater(0);
+      	binaryInput += 0;
+      	statusLed_updater(0);
       }
       delay(timing);
     }
@@ -211,10 +211,10 @@ String clean_string(String string) {
 // schaltet die statusLed bei einer übergebenen '1' ein und sonst aus
 void statusLed_updater(int state) {
   if (state == 1) {
-  digitalWrite(statusLed_pin, HIGH);
+  	digitalWrite(statusLed_pin, HIGH);
 
   } else {
-  digitalWrite(statusLed_pin, LOW);
+  	digitalWrite(statusLed_pin, LOW);
   }
 
 }
